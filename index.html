@@ -1,62 +1,22 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+</div>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Srussell123.github.io : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Srussell123.github.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/srussell123">View on GitHub</a>
-
-          <h1 id="project_title">Srussell123.github.io</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="about-me" class="anchor" href="#about-me"><span class="octicon octicon-link"></span></a>About me.</h3>
-
-<p>I am a computer science student and developer. I'm also a business owner and world traveler. In the past I studied Anthropology, learned Japanese, and started an English school in Osaka. Now I'm gearing up to move back to the US and start on a new and exciting journey.</p>
-
-<p><img src="../content/scotthike.jpg" alt="Me"></p>
-
-<pre><code>*Add here something prease*
-</code></pre>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+  <div class="recent-posts">
+  <h1>Recent Posts</h1>
+  {% for post in site.posts limit: 1 %}
+    <ul class="homepage-posts most-recent">
+    <li><span><h4><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<span class="badge"><smaller>FRESH</smaller></span><time class="pull-right">{{ post.date | date_to_string }}</h4></time></span></h4></span></li>
+    </ul>
+    {% endfor %}
+  	{% for post in site.posts limit: 4 offset:1 %}
+    <ul class="homepage-posts">
+ 	  <li><span><h4><a href="{{ post.url }}">{{ post.title }}</a><time class="pull-right">{{ post.date | date_to_string }}</h4></time></span></h4></span></li>
+    </ul>
+  	{% endfor %}
+    <ul>
+      <a href="{{ site.url }}/list.html">View More...</a>
+</ul>
+  	</div>
+<div class="contianer">
