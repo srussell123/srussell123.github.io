@@ -1,15 +1,14 @@
-name: Herring Cove
-author: Herring Cove
+name: Scott Russell
+author: Scott Russell
 markdown: redcarpet
 pygments: true
 baseurl: /
 url: 
-description: theme for jekyll
-github: http://www.github.com/arnp
+description: Developer, Business owner, Student for life
+github: http://www.github.com/srussell123
 twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
+linkedin: http://www.linkedin.com/pub/scott-russell/55/897/126
+email: scottbrussell[at]gmail.com
 location: 42°2'16"N   70°12'47"W
 disqus: diqus-username
 
