@@ -4,13 +4,13 @@ markdown: redcarpet
 pygments: true
 baseurl: /
 url: 
-description: Developer, Business owner, Student for life
+description: Developer & Entrepreneur
 github: http://www.github.com/srussell123
-twitter: http://www.twitter.com/
-linkedin: http://www.linkedin.com/pub/scott-russell/55/897/126
-email: scottbrussell[at]gmail.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+twitter: http://www.twitter.com/Sukotto123
+linkedin: jp.linkedin.com/in/scottbrussell/
+email: scottbrussell@gmail.com
+location:
+disqus: scottbrussell
 
 ##Make sure to edit the above fields, especially for disqus. 
 
