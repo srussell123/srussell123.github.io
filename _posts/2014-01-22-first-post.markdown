@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World and Hello Blog!"
 date: 2014-01-22 12:23:16
-categories: jekyll testing
+categories: jekyll testing 
 ---
 
 #Hello world!
@@ -19,4 +19,5 @@ According to Gayle Laakmann McDowell of [The Google Resume](http://www.thegoogle
 >* [ ] Write guest blog posts
 >* [ ] Answer questions on other forums
 
-Oh, and [just starting in twitter](https://www.twitter.com/Sukotto123)?. God is it lonely over there. I have 3 followers. I like the idea, though. So here is to presence!
+
+Upcoming posts should include a quick trial and error with Gist placement in Jekyll and then taking off to throwing a couple lessons a week from various interview prep courses.
