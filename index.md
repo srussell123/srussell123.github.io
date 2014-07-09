@@ -1,3 +1,7 @@
-  {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
+---
+layout: home
+title: "Recent Posts"
+tags: [Jekyll, theme, responsive, blog, template]
+image:
+  feature: typewriter.jpg
+---
